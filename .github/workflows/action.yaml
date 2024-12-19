@@ -29,5 +29,4 @@ jobs:
         python -m pytest addition.py
 
     - name: test date 
-      run : |
-       sh date 
+      run : echo date 
